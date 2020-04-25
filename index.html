@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Editor</title>
+
+  <link rel="stylesheet" href="./styles/global.css" >
+  <link rel="stylesheet" href="./styles/container.css" >
+</head>
+<body>
+  <div class="container">
+    <h1>Pixel Editor</h1>
+
+    <div id="content">
+      <canvas id="canvas">oi</canvas>
+      
+      <div class="tools">
+        <div class="color-pallete">
+          <h3>Colors</h3>
+  
+          <div class="colors">
+            <div class="color" title="#FF0000" style="background: #FF0000;"></div>
+            <div class="color" title="#FF7F00" style="background: #FF7F00;"></div>
+            <div class="color" title="#FFFF00" style="background: #FFFF00;"></div>
+            <div class="color" title="#00FF00" style="background: #00FF00;"></div>
+            <div class="color" title="#0000FF" style="background: #0000FF;"></div>
+            <div class="color" title="#00b7eb" style="background: #00b7eb;"></div>
+            <div class="color" title="#2E2B5F" style="background: #2E2B5F;"></div>
+            <div class="color" title="#8B00FF" style="background: #8B00FF;"></div>
+            <div class="color" title="#FFFFFF" style="background: #FFFFFF;"></div>
+            <div class="color" title="#000000" style="background: #000000;"></div>
+          </div>
+        </div>
+
+        <div class="size">
+          <h3>Size</h3>
+          <input id="pixelSizeSetter" value="1" type="range" min="1" step="2" max="12">
+        </div>
+        <div class="opacity">
+          <h3>Opacity</h3>
+          <input id="opacitySetter" value="10" type="range" min="0.1" step="0.1" max="1">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./pixel-editor.js"></script>
+</body>
+</html>
