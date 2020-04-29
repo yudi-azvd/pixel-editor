@@ -1,7 +1,7 @@
 class Canvas {
   constructor(document, id) {
     this.canvas = document.getElementById(id)
-    this.GRID_PIXELS = 32
+    this.GRID_PIXELS = 8
     this.canvas.width = this.GRID_PIXELS
     this.canvas.height = this.GRID_PIXELS
     this.CANVAS_CSS_WIDTH = 400
@@ -24,7 +24,7 @@ class Canvas {
       let mappedX = Math.trunc( originalX * this.GRID_PIXELS / this.CANVAS_CSS_WIDTH )
       let mappedY = Math.trunc( originalY * this.GRID_PIXELS / this.CANVAS_CSS_HEIGHT )
       
-      console.log(originalX, mappedX)
+      console.log(event.x, event.clientX)
       this.isDrawing = true
       pixelDrawer.draw(mappedX, mappedY)
     })

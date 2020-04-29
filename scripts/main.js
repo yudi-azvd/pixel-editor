@@ -3,14 +3,6 @@ const colors = document.querySelectorAll('.colors')
 const pixelSizeSetter = document.querySelector('#pixelSizeSetter')
 const opacitySetter = document.querySelector('#opacitySetter')
 
-// const PIXELS = 32
-// canvas.width = PIXELS
-// canvas.height = PIXELS
-
-// const CANVAS_WIDTH = 400
-// canvas.style.width = CANVAS_WIDTH
-// canvas.style.height = CANVAS_WIDTH
-
 const canvas = new Canvas(document, 'canvas')
 
 const pixelDrawer = new PixelDrawer(canvas.context)
