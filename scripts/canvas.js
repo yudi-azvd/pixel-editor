@@ -1,7 +1,7 @@
 class Canvas {
   constructor(document, id) {
     this.canvas = document.getElementById(id)
-    this.GRID_PIXELS = 8
+    this.GRID_PIXELS = 32
     this.canvas.width = this.GRID_PIXELS
     this.canvas.height = this.GRID_PIXELS
     this.CANVAS_CSS_WIDTH = 400
