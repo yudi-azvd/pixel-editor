@@ -8,7 +8,7 @@ Dá uma olhada [aqui](https://yudi-azvd.github.io/pixel-editor).
 <img src="./.github/joker-editor.png" width="400">
 
 ## A fazer
-- Botão de salvar
+- Botão de salvar como imagem ([svg](http://jsfiddle.net/pfp9y5xp/))
 - Botão de carregar
 - Salvar desenho na memória quando a atualizar a página
 - Refazer a UI
